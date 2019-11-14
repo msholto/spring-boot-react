@@ -1,0 +1,13 @@
+.container {
+    max-width: 90%;
+}
+
+.sideNav {
+    background-color: #343a40 !important;
+    position: fixed;
+    overflow: auto;
+}
+
+.sideNav * {
+    color: white !important;
+}

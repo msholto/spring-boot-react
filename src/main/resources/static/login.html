@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:c="http://www.w3.org/1999/XSL/Transform">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<title>App</title>
+</head>
+<body class="text-center">
+    <form method="POST" action="/login">
+        <div class="container">
+            <div class="d-flex justify-content-center mt-3">
+                <div class="">
+                    <img class="w-75" src="/images/logo192.png" alt="">
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center mb-2">
+                <div class="p-2">
+                    <input type="text" name="username" class="form-control" placeholder="Username" required="true" autofocus="" value="" />
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center mb-2">
+                <div class="p-2">
+                    <input type="password" name="password" class="form-control" placeholder="Password" required="true" value="" />
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center mb-2">
+                <div class="p-2">
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Log in</button>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center mt-5 mb-3">
+                <div class="p-2">
+                    <p class="text-muted">@App 2019</p>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

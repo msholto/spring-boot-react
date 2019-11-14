@@ -1,0 +1,1 @@
+CREATE DATABASE `app`CHARACTER SET utf8 COLLATE utf8_bin; use `app`;

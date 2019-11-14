@@ -44,7 +44,9 @@ React router-dom</br>
 <p>
 mvn clean install</br>
 This should download nodejs and yarn, compile java classes, generate typescript interfaces from .classes (not .java) files, build react application for production mode and copy it into final .jar file</br>
-<b>For you own good, please disable your antivirus software or use linux</b></br>
+<b>For your own good, please disable your antivirus software or use linux</b></br>
+</br>
+In folder /sql are the basic sql scripts for creation and filling the mysql database. If you do not want to waste time, I suggest you tu install xampp, start xampp-control-panel and just start the default mysql instance</br>
 </p>
 
 <h3>Profiles</h3>
@@ -57,13 +59,13 @@ Class DevSecurityInformationService describes hardcoded user and role for simula
 <p>
 Start up spring boot application with profile 'dev'</br>
 Open terminal in src/main/react folder and start up the application with 'npm start' command</br>
-Ui will be running at port 3000 by default and backend at port 80 by default</br>
+Ui will run at port 3000 by default and backend at port 80 by default</br>
 BACKAND_URL is defined in Common.tsx file</br>
 </p>
 
 <h4>test</h4>
 <p>
-This profile is using same database as dev, but it does have the login/logout feature</br>
+This profile is using the same database as dev, but it does have the login/logout feature</br>
 This should be used for testing this kind of features</br>
 </p>
 <h5>Usage</h5>
@@ -75,7 +77,7 @@ Everything should be working as dev, but it is now simulating the application in
 
 <h4>prod</h4>
 <p>
-This profile is using same database as test, but it has its own production properties</br>
+This profile is using the same database as test, but it has its own production properties</br>
 This should be used for production only</br>
 </p>
 <h5>Usage</h5>

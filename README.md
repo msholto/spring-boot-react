@@ -49,9 +49,18 @@
 </p>
 
 <h3>Default users</h3>
+<h4>Pattern</h4>
 <p>
-  user:Pass123:[]</br>
-  admin:Pass123:[ROLE_ADMIN]</br>
+&nbsp; &nbsp; &nbsp; &nbsp; username:password:arrayOfRoles
+</p>
+<h4>Users</h4>
+<p>
+&nbsp; &nbsp; &nbsp; &nbsp; user:Pass123:[]</br>
+&nbsp; &nbsp; &nbsp; &nbsp; admin:Pass123:[ROLE_ADMIN]</br>
+</p>
+<h4>Generating custom password</h4>
+<p>
+&nbsp; &nbsp; &nbsp; &nbsp; Use class GeneratePasswordTest
 </p>
 
 <h3>Profiles</h3>

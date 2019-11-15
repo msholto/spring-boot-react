@@ -48,6 +48,12 @@
 &nbsp; &nbsp; &nbsp; &nbsp; In folder /sql are the basic sql scripts for creation and filling the mysql database. If you do not want to &nbsp; &nbsp; &nbsp; &nbsp; waste time, I suggest you tu install xampp, start xampp-control-panel and just start the default mysql instance</br>
 </p>
 
+<h3>Default users</h3>
+<p>
+  user:Pass123:[]</br>
+  admin:Pass123:[ROLE_ADMIN]</br>
+</p>
+
 <h3>Profiles</h3>
 <h4>dev</h4>
 <p>

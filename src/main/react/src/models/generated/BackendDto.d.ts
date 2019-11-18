@@ -1,6 +1,6 @@
 /* tslint:disable */
 /* eslint-disable */
-// Generated using typescript-generator version 2.18.565 on 2019-11-14 13:54:45.
+// Generated using typescript-generator version 2.18.565 on 2019-11-18 18:17:24.
 
 export namespace BackendDto {
 

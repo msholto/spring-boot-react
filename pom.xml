@@ -136,7 +136,7 @@
                     <jsonLibrary>jackson2</jsonLibrary>
                     <addTypeNamePrefix>I</addTypeNamePrefix>
                     <classPatterns>
-                        <pattern>sk.msholto.app.models.dto.**</pattern>
+                        <pattern>sk.msholto.app.model.dto.**</pattern>
                     </classPatterns>
                     <customTypeMappings>
                         <mapping>java.util.Date:string</mapping>
